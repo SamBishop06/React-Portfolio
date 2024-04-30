@@ -1,0 +1,85 @@
+/* Footer Styles */
+
+/* Footer Positioning */
+.footer {
+    position: fixed; /* Fix the footer at the bottom of the viewport */
+    bottom: 0; /* Align the bottom of the footer with the bottom of the viewport */
+    width: 100%; /* Make the footer span the entire width of the viewport */
+}
+
+/* Social Icons Wrapper Styles */
+.social-icons-wrapper {
+    margin-top: 1rem; /* Add a top margin of 1rem to the social icons wrapper */
+    padding-bottom: 0; /* Remove bottom padding from the social icons wrapper */
+}
+
+/* Devices smaller than 320px */
+@media (max-width: 320px) {
+    .designer-text,
+    .copyright-text {
+        font-size: 8px; /* Set the font size of designer text and copyright text to 8px */
+    }
+
+    .footer-icon-size {
+        font-size: 14px; /* Set the font size of footer icons to 14px */
+    }
+}
+
+/* Devices between 321px and 575px */
+@media (min-width: 321px) and (max-width: 575px) {
+    .designer-text,
+    .copyright-text {
+        font-size: 12px; /* Set the font size of designer text and copyright text to 12px */
+    }
+
+    .footer-icon-size {
+        font-size: 18px; /* Set the font size of footer icons to 18px */
+    }
+}
+
+/* Devices between 576px and 992px */
+@media (min-width: 576px) and (max-width: 992px) {
+    .designer-text,
+    .copyright-text {
+        font-size: 14px; /* Set the font size of designer text and copyright text to 14px */
+    }
+
+    .footer-icon-size {
+        font-size: 22px; /* Set the font size of footer icons to 22px */
+    }
+}
+
+/* Devices greater than 992px */
+@media (min-width: 993px) {
+    .designer-text,
+    .copyright-text {
+        font-size: 16px; /* Set the font size of designer text and copyright text to 16px */
+    }
+
+    .footer-icon-size {
+        font-size: 28px; /* Set the font size of footer icons to 28px */
+    }
+}
+
+/* Footer Icon Size */
+.footer-icon-size {
+    margin-top: 4.6px; /* Add a top margin of 4.6px to footer icons */
+}
+
+/* Form Footer Styles */
+.form-footer {
+    display: inline-block; /* Display the form footer as an inline-block element */
+    vertical-align: middle; /* Align the form footer vertically middle */
+    margin-bottom: 0; /* Remove bottom margin from the form footer */
+    padding: 10px; /* Add padding of 10px to the form footer */
+}
+
+/* Footer Text and Container Styles */
+.designer-text,
+.footer-container,
+.footer {
+    align-content: center; /* Align the content of footer text and container to center */
+    border: 0px; /* Remove border from footer text and container */
+    margin: 0px; /* Remove margin from footer text and container */
+    padding: 0px; /* Remove padding from footer text and container */
+}
