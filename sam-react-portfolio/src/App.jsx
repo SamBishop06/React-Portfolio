@@ -1,13 +1,12 @@
 
-import './App.css'
+import styles from "./App.modules.css";
 
 function App() {
   
-
-  return (
-    <>Hello world</>;
+  return 
+    <div className="styles.App">Hello world</div>;
       
-  )
+  
 }
 
 export default App
