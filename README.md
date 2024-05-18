@@ -12,8 +12,8 @@ Welcome to my personal portfolio! This site showcases my projects and skills usi
 - [Questions](#questions)
 
 ## Usage
-npm i, then npm run dev and will take you too the local host kept getting main.jsx error didnt have time 
-to countinue to trouble shoot, also didnt have time to trouble shoout react tabs for about,Portfolio,contac,Resume.
+"npm i" to install 
+"npm run build"
 
 ## Screenshots
 ![](<src/assets/Screenshot 2024-05-17 at 8.58.31 PM.png>)
