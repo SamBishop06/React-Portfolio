@@ -1,4 +1,4 @@
-import React from 'react';
+
 import "./styles/App.css";
 import About from "./components/About";
 import Portfolio from './components/Portfolio';

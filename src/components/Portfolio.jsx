@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import PortfolioItem from "./PortfolioItem";
 import "../styles/Portfolio.css";
 import portfolio from "../data/portfolio";
