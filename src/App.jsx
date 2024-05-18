@@ -6,7 +6,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { BrowserRouter as Router } from 'react-router-dom';
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
